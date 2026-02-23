@@ -1,0 +1,58 @@
+body{
+    
+   background-color: rgba(99, 11, 11, 0.947);
+   color: white;
+}
+
+.head{
+    font-size: large;
+    font-weight: 100;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+h1{
+    font-style: italic;
+}
+.head{
+    font-weight: 300;
+    font-style: italic;
+}
+.zoo{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+.but1{
+    background-color: rgb(65, 165, 42);
+    border-color: rgb(61, 200, 49);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+
+}
+.but2{
+    background-color: rgb(72, 214, 50);
+    border-color: rgb(61, 200, 49);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style:none;    
+    gap: 50px;
+
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
