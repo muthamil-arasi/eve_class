@@ -7,9 +7,18 @@
 // }
 
 
+// let arr = [1, 2, 3, 4, 5];
+// let n = 3;
+
+// let result = arr.slice(n).concat(arr.slice(0, n));
+
+// console.log(result);
+
+
 let arr = [1, 2, 3, 4, 5];
 let n = 3;
-
-let result = arr.slice(n).concat(arr.slice(0, n));
-
-console.log(result);
+n = n % arr.length;
+for (let i = 0; i < n; i++) {
+    arr.push(arr.shift());
+}
+console.log(arr);

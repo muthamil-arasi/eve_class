@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.on{
+    margin-top: 300px;
+    margin-left: 700px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+
+
